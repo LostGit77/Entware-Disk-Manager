@@ -1,5 +1,5 @@
 # Entware Disk Manager 
-![Language](https://img.shields.io/badge/language-Bash-orange)
+
 ![Platform](https://img.shields.io/badge/platform-Entware%20%7C%20Keenetic-green)
 
 Интерактивный менеджер дисков и разделов для **Entware / Keenetic** 💻✨  
