@@ -1,5 +1,4 @@
 # Entware Disk Manager 
-# Entware Disk Manager
 
 ![Shell](https://img.shields.io/badge/shell-bash-blue)
 ![Platform](https://img.shields.io/badge/platform-Entware%20%7C%20Keenetic-green)
