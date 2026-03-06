@@ -1,7 +1,7 @@
 # Entware Disk Manager 
-
+![Language](https://img.shields.io/badge/language-Bash-orange)
 ![Platform](https://img.shields.io/badge/platform-Entware%20%7C%20Keenetic-green)
-![License](https://img.shields.io/github/license/<user>/<repo>)
+
 Интерактивный менеджер дисков и разделов для **Entware / Keenetic** 💻✨  
 
 Позволяет из (резервного) **Entware** управлять разделами USB-дисков, форматировать накопители и создавать резервные копии Entware прямо из терминала через удобное меню.
