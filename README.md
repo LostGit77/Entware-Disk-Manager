@@ -1,6 +1,6 @@
 # Entware Disk Manager 
 
-![Shell](https://img.shields.io/badge/shell-bash-blue)
+[![ShellCheck](https://img.shields.io/badge/shellcheck-passing-brightgreen)](https://github.com/koalaman/shellcheck)
 ![Platform](https://img.shields.io/badge/platform-Entware%20%7C%20Keenetic-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
