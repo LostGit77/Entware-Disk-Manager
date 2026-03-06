@@ -1,8 +1,6 @@
 # Entware Disk Manager 
 
-[![ShellCheck](https://img.shields.io/badge/shellcheck-passing-brightgreen)](https://github.com/koalaman/shellcheck)
 ![Platform](https://img.shields.io/badge/platform-Entware%20%7C%20Keenetic-green)
-![License](https://img.shields.io/badge/license-MIT-orange)
 
 Интерактивный менеджер дисков и разделов для **Entware / Keenetic** 💻✨  
 
