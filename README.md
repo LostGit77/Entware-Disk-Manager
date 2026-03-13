@@ -132,3 +132,19 @@ opkg update && opkg install curl bash && curl -O https://raw.githubusercontent.c
 4. Нажимаем **Сохранить**  
 5. Система автоматически развернёт бекап.  
 6. Все программы и настройки Entware восстановятся.
+
+---
+# Установка OPKG Entware на встроенную память роутера
+## Для поддержки данной возможности вам потребуется установить пакеты:
+1. Поддержка открытых пакетов..................:✅  
+2. Модули ядра для поддержки файловых систем...:✅
+## Начиная с KeeneticOS 4.2 появилась возможность установки в одну команду через CLI: `192.168.1.1/a`
+### Для архитектуры `Mipsel`:
+```
+opkg disk storage:/ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-installer.tar.gz
+```
+### Для архитектуры `Aarch`:
+```
+opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-installer.tar.gz
+```
+## Дождаться окончания установки в Журнале
