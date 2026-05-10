@@ -157,3 +157,44 @@ opkg disk storage:/ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-insta
 opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-installer.tar.gz
 ```
 **Дождаться окончания установки в Журнале**
+
+## Установка OPKG Entware на внешний накопитель USB
+
+1. **Подключиться к роутеру по CLI:**
+```
+192.168.1.1/a
+```
+2. **Ввести** 
+```
+opkg disk
+```
+3. Нажать `Tab`
+4. Выбрать Имя накопителя из списка
+5. Указать URL установщика под вашу архитектуру:
+
+**Для архитектуры `Mipsel`:**
+```
+ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-installer.tar.gz
+```
+**Для архитектуры `Aarch`:**
+```
+ https://bin.entware.net/aarch64-k3.10/installer/aarch64-installer.tar.gz
+```
+**Дождаться окончания установки в Журнале**
+
+## Форматирование встроенной памяти роутера
+
+**Ввести поочерёдно команды:**
+```
+opkg no disk
+```
+```
+no system mount storage:
+```
+```
+erase storage:
+```
+```
+system mount storage:
+```
+**Готово**
